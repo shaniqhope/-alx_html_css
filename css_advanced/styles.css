@@ -1,90 +1,100 @@
-/* General body and reset styles */
+/* General Styling */
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: 'Source Sans Pro', sans-serif;
-  }
-  
-  /* Header styles */
-  header {
-    background-image: url('your-header-background-image.jpg'); /* Set this to the correct path */
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    position: relative;
-    text-align: center;
+}
+
+header {
+    background-color: #333;
     color: white;
-  }
-  
-  header h1 {
-    font-size: 64px;
-    font-weight: bold;
-    margin-top: 120px;
-  }
-  
-  header nav ul {
+    padding: 20px;
+    text-align: center;
+}
+
+header ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  header nav ul li {
-    margin-right: 20px;
-  }
-  
-  header nav ul li a {
+}
+
+header ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header ul li a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
-  }
-  
-  header .register-btn {
-    background-color: #914bfc; /* Adjust according to Figma */
-    color: white;
-    border-radius: 25px;
-    padding: 10px 30px;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
-  
-  /* First section styles */
-  section.first-section {
-    padding: 40px;
-    text-align: center;
-  }
-  
-  section.first-section h2 {
-    color: #6c63ff; /* Adjust color to match */
-    font-size: 24px;
-    margin-top: 20px;
-  }
-  
-  section.first-section .pro-examples {
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Flexbox Layout for Main and Aside */
+main {
     display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-top: 40px;
-  }
-  
-  section.first-section .pro-examples .pro {
+    flex-direction: row;
+    padding: 20px;
+}
+
+article {
+    flex: 2;
+    margin-right: 20px;
+}
+
+aside {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
     text-align: center;
-  }
-  
-  section.first-section .pro-examples .pro img {
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Styling the Figma Embedded Section */
+section {
+    margin: 20px 0;
+}
+
+/* Quote Section Styling */
+.quote-section {
+    background-color: #a44be0;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+.quote-section img {
     border-radius: 50%;
-    width: 120px;
-    height: 120px;
-  }
-  
-  section.first-section .pro-examples .pro p {
-    font-size: 18px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.quote-section blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.quote-section .person-name {
+    font-weight: bold;
     margin-top: 10px;
-  }
-  
-  section.first-section .pro-examples .pro span {
-    font-size: 14px;
-    color: gray;
-  }
+    display: block;
+}
+
+.quote-section .person-title {
+    font-style: italic;
+    color: #e6b1f5;
+}
   
