@@ -1,0 +1,90 @@
+/* General body and reset styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background-image: url('your-header-background-image.jpg'); /* Set this to the correct path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  header h1 {
+    font-size: 64px;
+    font-weight: bold;
+    margin-top: 120px;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  header nav ul li {
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  header .register-btn {
+    background-color: #914bfc; /* Adjust according to Figma */
+    color: white;
+    border-radius: 25px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  /* First section styles */
+  section.first-section {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  section.first-section h2 {
+    color: #6c63ff; /* Adjust color to match */
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  section.first-section .pro-examples {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+  }
+  
+  section.first-section .pro-examples .pro {
+    text-align: center;
+  }
+  
+  section.first-section .pro-examples .pro img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+  }
+  
+  section.first-section .pro-examples .pro p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  section.first-section .pro-examples .pro span {
+    font-size: 14px;
+    color: gray;
+  }
+  
