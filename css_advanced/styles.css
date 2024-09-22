@@ -60,7 +60,7 @@ footer {
     width: 100%;
 }
 
-/* Styling the Figma Embedded Section */
+/* Styling for Figma Section */
 section {
     margin: 20px 0;
 }
@@ -96,5 +96,59 @@ section {
 .quote-section .person-title {
     font-style: italic;
     color: #e6b1f5;
+}
+
+/* Videos List Section Styling */
+.videos-section {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.videos-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.videos-section .highlight {
+    color: #a44be0;
+    font-weight: bold;
+}
+
+.videos-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-item {
+    background-color: white;
+    width: 23%;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.video-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.video-item h3 {
+    font-size: 1.25rem;
+    margin: 10px 0;
+}
+
+.video-info {
+    font-size: 0.9rem;
+    color: gray;
+    margin: 5px 0;
+}
+
+.video-rating {
+    margin-top: 10px;
+    color: #ffd700; /* Gold star color */
+    font-size: 1rem;
 }
   
